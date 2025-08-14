@@ -11,6 +11,9 @@ plugins {
 
     // Used for changelog generation
     id 'net.minecraftforge.gradleutils' version '2.2.0'
+
+    // Allow to be reused in other mods
+    id 'java-library'
 }
 
 changelog {
