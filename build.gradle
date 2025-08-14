@@ -35,7 +35,7 @@ subprojects {
     
     java.toolchain.languageVersion = JavaLanguageVersion.of(21)
     java.withSourcesJar()
-    java.withJavadocJar()
+//    java.withJavadocJar()
 
     version = rootProject.version
 
